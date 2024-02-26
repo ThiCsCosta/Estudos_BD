@@ -12,7 +12,7 @@ services:
       MYSQL_DATABASE: base_de_dados
       MYSQL_USER: admin
       MYSQL_PASSWORD: 123456
-
+    volumes: C:\Projetos\MySQL\Estudos_BD\Estudos_BD\MySQL_1:/var/lib/mysql 
   adminer:
     image: adminer
     restart: always
